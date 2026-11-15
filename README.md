@@ -6,7 +6,7 @@ A compact collection of standalone **NumWorks MicroPython** games that are compl
 
 ## 📂 Scripts Included
 
-### Connect 4
+### 🔴🟡 Connect 4
 [`connect4.py`](connect4.py) · *Created May 15, 2023*
 
 Classic two-player **Connect 4** (`7 × 6` grid) rendered with `kandinsky`:
@@ -14,12 +14,12 @@ Classic two-player **Connect 4** (`7 × 6` grid) rendered with `kandinsky`:
 - Includes a pixel-art Toad sprite in the bottom-right corner to fill the empty sidebar space.
 - **Controls**: `Left` / `Right` to select a column, `OK` to drop a disc, and restart prompts between rounds.
 
-### World Flags Quiz
+### 🇫🇷 World Flags Quiz
 [`flags_quiz.py`](flags_quiz.py) · *Created March 08, 2023*
 
-Interactive geography quiz rendering **12 world flags** directly on screen with `kandinsky` (including custom rotated ellipse rendering for angled emblems):
-- Displays each flag graphically and prompts you to identify the country.
-- Tracks your score across the quiz.
+Interactive geography flashcard quiz rendering **12 world flags** directly on screen with `kandinsky` before revealing each country's name, with **2 game modes**:
+- **Mode 1 (Sequential)**: Cycles through all 12 flags once in order with a user-chosen reveal delay (in seconds).
+- **Mode 2 (Random)**: Lets you choose the number of flags in the series and the reveal delay, picking flags at random (repeats allowed).
 
 ---
 
